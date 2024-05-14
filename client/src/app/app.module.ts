@@ -39,6 +39,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ShopComponent } from './shop/shop.component';
+import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
 
 registerLocaleData(en);
 
@@ -59,6 +60,7 @@ registerLocaleData(en);
     AboutComponent,
     ContactComponent,
     ShopComponent,
+    AdminDashboardComponent,
   ],
   imports: [
     BrowserModule,
