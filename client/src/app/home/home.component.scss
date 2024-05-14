@@ -1,0 +1,669 @@
+.testimonial_area {
+	display: block;
+	overflow: hidden;
+	padding-left: 200px;
+	padding-top: 20px;
+	padding-bottom: 60px;
+	position: relative;
+	font-family: 'Arbutus Slab';
+	/* Jupitar Nave */
+  }
+  .testimonial_area h4 {
+	font: 700 18px/1 "Arbutus Slab", Arbutus Slab;
+	color: #282331;
+	padding-bottom: 53px;
+	text-transform: uppercase;
+  }
+  .testimonial_area h2 {
+	font: 500 62px/72px "Arbutus Slab", Arbutus Slab;
+	color: #7f4f24;
+	padding-top: 140px;
+	padding-left: 110px;
+	padding-bottom: 50px;
+  }
+  .testimonial_area .testimonial_slide {
+	padding-left: 170px;
+	/* Control */
+  }
+  .testimonial_area .testimonial_slide .testimonial_content {
+	padding-left: 110px;
+	z-index: 1;
+  }
+  .testimonial_area .testimonial_slide .testimonial_content:before {
+
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #faf7ff;
+	font-size: 205px;
+	font-family: Arbutus Slab;
+	font-style: normal;
+	line-height: 1;
+	z-index: -1;
+  }
+  .testimonial_area .testimonial_slide .testimonial_content p {
+	font: 400 20px/31px "Arbutus Slab", Arbutus Slab;
+	color: rgba(40, 35, 49, 0.8);
+	max-width: 650px;
+	padding-top: 0px;
+	padding-bottom: 20px;
+  }
+  .testimonial_area .testimonial_slide .testimonial_content .media {
+	padding: 85px 0;
+  }
+  .testimonial_area .testimonial_slide .testimonial_content .media img {
+	height: 82px;
+	width: 82px;
+	border-radius: 50%;
+	max-width: 100%;
+	border: 6px solid #e5e6fa;
+	box-shadow: 0px 45px 45px 0px rgba(147, 147, 147, 0.35);
+  }
+  .testimonial_area .testimonial_slide .testimonial_content .media .media-body {
+	padding-left: 30px;
+  }
+  .testimonial_area .testimonial_slide .testimonial_content .media .media-body a {
+	display: block;
+	font: 700 21px/1 "Arbutus Slab", sans-serif;
+	color: #382c4d;
+	padding-top: 10px;
+  }
+  .testimonial_area .testimonial_slide .testimonial_content .media .media-body a:hover, .testimonial_area .testimonial_slide .testimonial_content .media .media-body a:focus {
+	color: #8f49f9;
+  }
+  .testimonial_area .testimonial_slide .testimonial_content .media .media-body h6 {
+	font: 400 16px/1 "Arbutus Slab", sans-serif;
+	color: #8f49f9;
+	padding-top: 20px;
+  }
+  .testimonial_area .testimonial_slide .nav_control {
+	display: block;
+	overflow: hidden;
+	margin-left: 500px;
+	padding-top: 75px;
+  }
+  .testimonial_area .testimonial_slide .control-prev {
+	color: #7f4f24;
+	line-height: 68px;
+	width: 84px;
+	display: inline-block;
+	text-align: right;
+	padding-right: 15px;
+	background: #fff;
+	position: relative;
+  }
+  .testimonial_area .testimonial_slide .control-prev:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-style: solid;
+	border-width: 68px 30px 0 0;
+	border-color: #fff transparent transparent transparent;
+  }
+  .testimonial_area .testimonial_slide .control-prev i:before {
+	font-size: 43px;
+	line-height: 68px;
+	display: block;
+	font-weight: 300;
+  }
+  .testimonial_area .testimonial_slide .control-prev:hover, .testimonial_area .testimonial_slide .control-prev:focus {
+	background: #7f4f24;
+	color: #fff;
+  }
+  .testimonial_area .testimonial_slide .control-next {
+	color: #fff;
+	line-height: 68px;
+	width: 84px;
+	display: inline-block;
+	padding-left: 15px;
+	background: #7f4f24;
+	position: relative;
+  }
+  .testimonial_area .testimonial_slide .control-next:after {
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 0;
+	border-style: solid;
+	border-width: 0 30px 68px 0;
+	border-color: transparent #fff transparent transparent;
+  }
+  .testimonial_area .testimonial_slide .control-next i:before {
+	font-size: 43px;
+	line-height: 68px;
+	display: block;
+	font-weight: 300;
+  }
+  .testimonial_area .indicators {
+	position: absolute;
+	top: 0;
+	right: 30px;
+	border-radius: 50%;
+	width: 705px;
+	height: 705px;
+	display: block;
+	margin-top: 80px;
+  }
+  .testimonial_area .indicators li {
+	position: absolute;
+	display: block;
+	transition: all 300ms linear 0s;
+  }
+  .testimonial_area .indicators li img {
+	border-radius: 50%;
+	border: 6px solid #eee9e9;
+	box-shadow: 0px 45px 45px 0px rgba(147, 147, 147, 0.35);
+	cursor: pointer;
+	z-index: 1;
+  }
+  .testimonial_area .indicators li:hover, .testimonial_area .indicators li:focus {
+	border-color: #7f4f24 !important;
+  }
+  .testimonial_area .indicators .testimonial_1 {
+	top: 0;
+	right: 0;
+	border: 2px solid #eee9e9;
+	border-radius: 50%;
+	width: 705px;
+	height: 705px;
+  }
+  .testimonial_area .indicators .testimonial_1 img {
+	animation: rotation 60s linear infinite;
+	transform-origin: -290px 80px;
+	top: 270px;
+	position: absolute;
+	right: -70px;
+  }
+  .testimonial_area .indicators .testimonial_1:before {
+	content: "";
+	border: 3px solid #eee9e9;
+	border-radius: 50%;
+	box-shadow: 0px 18px 58px 0px rgba(82, 82, 82, 0.35);
+	height: 19px;
+	width: 19px;
+	display: block;
+	animation: rotation 55s linear infinite;
+	transform-origin: -342px 10px;
+	top: 340px;
+	position: absolute;
+	right: -10px;
+  }
+  .testimonial_area .indicators .testimonial_1:after {
+	content: "";
+	border: 3px solid #7f4f24;
+	border-radius: 50%;
+	box-shadow: 0px 18px 58px 0px rgba(82, 82, 82, 0.35);
+	height: 19px;
+	width: 19px;
+	display: block;
+	animation: rotation 100s linear infinite;
+	transform-origin: -342px 10px;
+	top: 340px;
+	position: absolute;
+	right: -10px;
+  }
+  .testimonial_area .indicators .testimonial_2 {
+	border: 1px solid #eee9e9;
+	border-radius: 50%;
+	width: 607px;
+	height: 607px;
+	top: 50%;
+	transform: translateY(-50%);
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+  }
+  .testimonial_area .indicators .testimonial_2 img {
+	animation: rotation 35s linear infinite;
+	transform-origin: -230px 65px;
+	top: 230px;
+	position: absolute;
+	right: -60px;
+  }
+  .testimonial_area .indicators .testimonial_3 {
+	border: 1px solid #eee9e9;
+	border-radius: 50%;
+	width: 494px;
+	height: 494px;
+	top: 50%;
+	transform: translateY(-50%);
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+  }
+  .testimonial_area .indicators .testimonial_3 img {
+	animation: rotation 20s linear infinite;
+	transform-origin: -170px 75px;
+	bottom: 190px;
+	position: absolute;
+	right: -55px;
+  }
+  .testimonial_area .indicators .testimonial_4 {
+	border: 1px solid #eee9e9;
+	border-radius: 50%;
+	width: 365px;
+	height: 365px;
+	top: 50%;
+	transform: translateY(-50%);
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+  }
+  .testimonial_area .indicators .testimonial_4 img {
+	animation: rotation 50s linear infinite;
+	transform-origin: -125px 75px;
+	top: 100px;
+	position: absolute;
+	right: -30px;
+  }
+  .testimonial_area .indicators .round_shap {
+	border: 3px solid #eee9e9;
+	border-radius: 50%;
+	box-shadow: 0px 20px 52px 0px rgba(176, 124, 255, 0.35);
+	width: 27px;
+	height: 27px;
+	top: 50%;
+	transform: translateY(-50%);
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+  }
+  
+  .ta_2 {
+	padding-top: 120px;
+  }
+  .ta_2 .testimonial_slide {
+	padding-left: 130px;
+  }
+  .ta_2 .testimonial_slide .testimonial_content {
+	box-shadow: 0px 20px 50px 0px rgba(238, 228, 253, 0.75);
+	background: #fff;
+	max-width: 1047px;
+	margin: 40px;
+	margin-top: 15px;
+	padding-top: 20px;
+	z-index: 999;
+	position: relative;
+  }
+  .ta_2 .testimonial_slide .testimonial_content:before {
+	font-size: 160px;
+	left: 35px;
+	top: 50px;
+  }
+  .ta_2 .testimonial_slide .testimonial_content .media {
+	padding-bottom: 70px !important;
+  }
+  .ta_2 .testimonial_slide .nav_control {
+	padding-top: 40px;
+  }
+  .ta_2 .indicators {
+	margin-top: 100px;
+	z-index: -1;
+  }
+  
+  .ta_4 {
+	padding-bottom: 70px;
+  }
+  @media (max-width: 1610px) {.testimonial_area {
+	  padding-left: 15px;
+	  padding-right: 15px;
+	}
+	.testimonial_area .testimonial_slide {
+	  padding-left: 0;
+	}}
+	@media (max-width: 1440px) {
+	.testimonial_area .testimonial_slide .testimonial_content {
+	  padding-left: 30px;
+	}
+	.testimonial_area .testimonial_slide .testimonial_content:before {
+	  font-size: 80px;
+	}
+	.testimonial_area .testimonial_slide .nav_control {
+	  margin: 0;
+	  padding: 0;
+	}
+  
+	.ta_2 .testimonial_slide .testimonial_content:before {
+	  top: 20px;
+	}
+  }
+  @media (max-width: 1199px) {
+	.testimonial_area {
+	  padding-top: 80px;
+	}
+	.testimonial_area h4 {
+	  padding-bottom: 20px;
+	}
+	.testimonial_area h2 {
+	  padding-bottom: 30px;
+	}
+	.testimonial_area .indicators {
+	  position: relative;
+	  margin: 0;
+	  right: 0;
+	  left: 50px;
+	}
+  }
+  @media (max-width: 767px) {
+	.testimonial_area .indicators {
+	  display: none;
+	}}
+	@media (max-width: 575px) {.testimonial_area h4 {
+	  font-size: 16px;
+	}
+	.testimonial_area h2 {
+	  font-size: 30px;
+	  line-height: 35px;
+	}
+	.testimonial_area .testimonial_slide .testimonial_content p {
+	  font-size: 18px;
+	}
+	.testimonial_area .testimonial_slide .testimonial_content .media {
+	  padding-top: 40px;
+	}}
+  @keyframes rotation {
+	to {
+	  transform: rotate(360deg);
+	}
+  }
+  
+  
+  
+  /* CSS */
+  .button-13 {
+	background-color: #fff;
+	border: 1px solid #7f4f24;
+	border-radius: 8px;
+	box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+	box-sizing: border-box;
+	color: #7f4f24;
+	cursor: pointer;
+	display: inline-block;
+	font-family: "Arbutus Slab",Arbutus Slab;
+	font-size: 13px;
+	line-height: 29px;
+	padding: 0 10px 0 11px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	vertical-align: middle;
+	width: 100px;
+	margin-left: 110px;
+  }
+  
+  .button-13:hover {
+	background-color: #f7fafa;
+  }
+  
+  .button-13:focus {
+	border-color: #008296;
+	box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+	outline: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.home-container {
+  padding-top: 54px;
+  .categories {
+    margin: 0 auto;
+    padding: 24px 16px;
+    max-width: calc(350px + 32px); // width of cards + all padding + gap
+    &__header {
+      margin-bottom: 16px;
+      > h2 {
+        font-size: 1.75rem;
+      }
+    }
+    &__list {
+      // just for categories
+      .swiper-pagination-bullet-active {
+        background-color: #fff;
+      }
+      .category-card {
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        font-size: 1.375rem;
+        letter-spacing: 5px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #fff;
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+        cursor: pointer;
+      }
+    }
+  }
+  .products {
+    margin: 0 auto;
+    padding: 24px 16px;
+    max-width: calc(350px + 32px); // width of cards + all padding + gap
+    &__loading {
+      text-align: center;
+    }
+    &__header {
+      margin-bottom: 16px;
+      > h2 {
+        font-size: 1.75rem;
+      }
+    }
+    &__list {
+      display: grid;
+      grid-template-columns: 1fr;
+      row-gap: 24px;
+      .product-card {
+        height: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+        &__image {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .load-products {
+    text-align: center;
+    padding: 16px 16px 32px;
+    > button {
+      max-width: 341px;
+      height: 44px;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home-container {
+    .categories {
+      max-width: calc(700px + 72px); // width of cards + all padding + gap
+      padding: 36px 24px;
+      &__list {
+        .category-card {
+          height: 200px;
+        }
+      }
+    }
+    .products {
+      max-width: calc(700px + 72px); // width of cards + all padding + gap
+      padding: 36px 24px;
+      &__header {
+        margin-bottom: 16px;
+      }
+      &__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 24px;
+        row-gap: 24px;
+        .product-card {
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .home-container {
+    .categories {
+      max-width: calc(1050px + 96px); // width of cards + all padding + gap
+      padding: 36px 24px;
+      &__list {
+        .category-card {
+          width: 348px;
+        }
+      }
+    }
+    .products {
+      max-width: calc(1050px + 96px); // width of cards + all padding + gap
+      padding: 36px 24px;
+      &__header {
+        margin-bottom: 16px;
+      }
+      &__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        .product-card {
+        }
+      }
+    }
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arbutus Slab";
+}
+
+/* -----------------company----------------------- */
+.company {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img {
+  width: 100%;
+  margin: 1rem 0rem 0rem 2rem;
+}
+
+.img img {
+  width: 100%;
+}
+
+.company-info {
+  width: 100%;
+  margin-right: 1rem;
+  margin-left: 30px;
+}
+
+.company-info span {
+  font-size: 3.0rem;
+  font-weight: bold;
+}
+
+.company-info span .our {
+  color: #f28482;
+}
+
+.company-info p{
+  font-size: 1.1rem;
+  color: #5fa8d3;
+}
+/* ----------------------------------------------- */
+
+body{
+    background:white;
+  }
+  
+/* ---------------------------------------------------------------------------- */
+.button-14{
+	background-color: #fff;
+	border: 1px solid #7f4f24;
+	border-radius: 8px;
+	box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+	box-sizing: border-box;
+	color: #0f1111;
+	cursor: pointer;
+	display: inline-block;
+	font-family: "Arbutus Slab",Arbutus Slab;
+	font-size: 13px;
+	line-height: 29px;
+	padding: 0 10px 0 11px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	vertical-align: middle;
+	width: 100px;
+	margin-left: 0px;
+  }
+  
+  .button-13:hover {
+	background-color: #f7fafa;
+  }
+  
+  .button-13:focus {
+	border-color: #008296;
+	box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+	outline: 0;
+  }

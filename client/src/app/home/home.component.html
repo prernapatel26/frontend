@@ -1,0 +1,137 @@
+<html>
+<!--
+
+Follow me on
+Dribbble: https://dribbble.com/supahfunk
+Twitter: https://twitter.com/supahfunk
+Codepen: https://codepen.io/supah/
+
+-->
+<head>
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About us</title>
+  <!-- <link rel="stylesheet" href="{% static 'about.css' %}" /> -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="icon" href="{% static 'PICO-LOGO-SHORT.png' %}" type="image/gif">
+</head>
+<body>
+
+<!------ Include the above in your HEAD tag ---------->
+
+<section class="testimonial_area">
+        <h2>Welcome to <br> Urban Vogue</h2>
+        <div class="carousel slide testimonial_slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">  
+                   <div class="testimonial_content"> 
+                        <p>Discover the beauty of artisan craftsmanship with our curated collection of handmade products. From exquisite bags to charming home decor and timeless watches, each item in our store is a labor of love, crafted with passion and precision by skilled artisans from around the globe.</p>
+                   </div>
+                </div>
+            </div> 
+        </div> 
+        <button class="button-13" role="button" routerLink="shop">Shop now</button>
+        <ul class="indicators">
+            <li data-target=".testimonial_slide" data-slide-to="0" class="testimonial_1"><img src="" alt=""></li>
+            <li data-target=".testimonial_slide" data-slide-to="1" class="testimonial_2"><img src="" alt=""></li>
+            <li data-target=".testimonial_slide" data-slide-to="2" class="testimonial_3"><img src="" alt=""></li>
+            <li data-target=".testimonial_slide" data-slide-to="3" class="testimonial_4"><img src="" alt=""></li>
+			<li class="round_shap"></li>
+        </ul>
+    </section>
+
+
+
+
+
+<!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
+
+<div class="home-container">
+<div class="products">
+<div class="products__header">
+  <h2>Products</h2>
+</div>
+<div *ngIf="loading" class="products__loading">
+  <ng-template #indicatorTemplate>
+    <i
+      nz-icon
+      nzType="loading"
+      [ngStyle]="{ 'font-size': '2rem', margin: '0 auto' }"
+    ></i>
+  </ng-template>
+  <nz-spin nzSimple [nzIndicator]="indicatorTemplate"> </nz-spin>
+</div>
+<div class="products__list" *ngIf="!loading">
+  <app-product-card
+    *ngFor="let n of products"
+    [id]="n.id"
+    [title]="n.title"
+    [image]="n.image"
+    [price]="n.price"
+    [short_desc]="n.short_desc"
+    [category]="n.category"
+    [quantity]="n.quantity"
+    [onAdd]="cartService.addProduct.bind(cartService)"
+  >
+  </app-product-card>
+</div>
+</div>
+<div class="load-products">
+<button
+  nz-button
+  (click)="showMoreProducts()"
+  [nzLoading]="additionalLoading"
+>
+  Show more
+</button>
+</div>
+</div>
+
+
+
+
+
+
+
+<br><br><br><br>
+
+  <!-- -----------------------------------------------company---------------------------------------------------------------- -->
+  <div class="company">
+    <div class="img">
+      <img src="./assets/6.png" alt="" />
+    </div>
+    <div class="company-info">
+      <span>ABOUT <span class="our">OUR STORE</span></span>
+      <br>
+      <p>
+        At Urban Vogue, we curate a collection of exquisite handmade products that reflect the passion and artistry 
+        of skilled artisans worldwide. From stunning bags to enchanting home decor and sophisticated watches, each item 
+        in our store embodies a story of tradition, creativity, and craftsmanship.
+      </p>
+      <button class="button-14" role="button">Know more</button>
+    </div>
+  </div>
+  <br><br><br><br><br><br><br>
+  <!-- service -------------------------------------------------------->
+  
+  
+  <!-- ---------------------------------------------------------------------------------------------------------------------- -->
+  
+
+
+
+
+
+</body>
+</html>
+
+
+<!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
